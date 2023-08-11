@@ -44,9 +44,9 @@ import androidx.compose.ui.text.input.VisualTransformation
  *
  * Unlike [TextFieldValue] overload, this composable does not let the developer to control
  * selection, cursor and text composition information. Please check [TextFieldValue] and
- * corresponding [BasicTextField] overload for more information.
+ * corresponding [PatchedBasicTextField] overload for more information.
  *
- * It is crucial that the value provided in the [onValueChange] is fed back into [BasicTextField] in
+ * It is crucial that the value provided in the [onValueChange] is fed back into [PatchedBasicTextField] in
  * order to have the final state of the text being displayed.
  *
  * Example usage:
@@ -81,9 +81,9 @@ import androidx.compose.ui.text.input.VisualTransformation
  * @param onValueChange the callback that is triggered when the input service updates the text. An
  * updated text comes as a parameter of the callback
  * @param modifier optional [Modifier] for this text field.
- * @param enabled controls the enabled state of the [BasicTextField]. When `false`, the text
+ * @param enabled controls the enabled state of the [PatchedBasicTextField]. When `false`, the text
  * field will be neither editable nor focusable, the input of the text field will not be selectable
- * @param readOnly controls the editable state of the [BasicTextField]. When `true`, the text
+ * @param readOnly controls the editable state of the [PatchedBasicTextField]. When `true`, the text
  * field can not be modified, however, a user can focus it and copy text from it. Read-only text
  * fields are usually used to display pre-filled forms that user can not edit
  * @param textStyle Style configuration that applies at character level such as color, font etc.
@@ -120,7 +120,7 @@ import androidx.compose.ui.text.input.VisualTransformation
  * innerTextField exactly once.
  */
 @Composable
-fun BasicTextField(
+fun PatchedBasicTextField(
     value: String,
     onValueChange: (String) -> Unit,
     modifier: Modifier = Modifier,
@@ -139,6 +139,7 @@ fun BasicTextField(
     decorationBox: @Composable (innerTextField: @Composable () -> Unit) -> Unit =
         @Composable { innerTextField -> innerTextField() }
 ) {
+    println("New library version")
     // Holds the latest internal TextFieldValue state. We need to keep it to have the correct value
     // of the composition.
     var textFieldValueState by remember { mutableStateOf(TextFieldValue(text = value)) }
@@ -196,7 +197,7 @@ fun BasicTextField(
  * as selection, cursor and text composition information. Please check [TextFieldValue] for the
  * description of its contents.
  *
- * It is crucial that the value provided in the [onValueChange] is fed back into [BasicTextField] in
+ * It is crucial that the value provided in the [onValueChange] is fed back into [PatchedBasicTextField] in
  * order to have the final state of the text being displayed.
  *
  * Example usage:
@@ -224,12 +225,12 @@ fun BasicTextField(
  * @sample androidx.compose.foundation.samples.TextFieldWithIconSample
  *
  * @param value The [androidx.compose.ui.text.input.TextFieldValue] to be shown in the
- * [BasicTextField].
+ * [PatchedBasicTextField].
  * @param onValueChange Called when the input service updates the values in [TextFieldValue].
  * @param modifier optional [Modifier] for this text field.
- * @param enabled controls the enabled state of the [BasicTextField]. When `false`, the text
+ * @param enabled controls the enabled state of the [PatchedBasicTextField]. When `false`, the text
  * field will be neither editable nor focusable, the input of the text field will not be selectable
- * @param readOnly controls the editable state of the [BasicTextField]. When `true`, the text
+ * @param readOnly controls the editable state of the [PatchedBasicTextField]. When `true`, the text
  * field can not be modified, however, a user can focus it and copy text from it. Read-only text
  * fields are usually used to display pre-filled forms that user can not edit
  * @param textStyle Style configuration that applies at character level such as color, font etc.
@@ -266,7 +267,7 @@ fun BasicTextField(
  * innerTextField exactly once.
  */
 @Composable
-fun BasicTextField(
+fun PatchedBasicTextField(
     value: TextFieldValue,
     onValueChange: (TextFieldValue) -> Unit,
     modifier: Modifier = Modifier,
@@ -311,7 +312,7 @@ fun BasicTextField(
 
 @Deprecated("Maintained for binary compatibility", level = DeprecationLevel.HIDDEN)
 @Composable
-fun BasicTextField(
+fun PatchedBasicTextField(
     value: String,
     onValueChange: (String) -> Unit,
     modifier: Modifier = Modifier,
@@ -329,7 +330,7 @@ fun BasicTextField(
     decorationBox: @Composable (innerTextField: @Composable () -> Unit) -> Unit =
         @Composable { innerTextField -> innerTextField() }
 ) {
-    BasicTextField(
+    PatchedBasicTextField(
         value = value,
         onValueChange = onValueChange,
         modifier = modifier,
@@ -351,7 +352,7 @@ fun BasicTextField(
 
 @Deprecated("Maintained for binary compatibility", level = DeprecationLevel.HIDDEN)
 @Composable
-fun BasicTextField(
+fun PatchedBasicTextField(
     value: TextFieldValue,
     onValueChange: (TextFieldValue) -> Unit,
     modifier: Modifier = Modifier,
@@ -369,7 +370,7 @@ fun BasicTextField(
     decorationBox: @Composable (innerTextField: @Composable () -> Unit) -> Unit =
         @Composable { innerTextField -> innerTextField() }
 ) {
-    BasicTextField(
+    PatchedBasicTextField(
         value = value,
         onValueChange = onValueChange,
         modifier = modifier,

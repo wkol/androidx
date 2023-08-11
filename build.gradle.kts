@@ -46,9 +46,10 @@ kotlin {
                 implementation("org.jetbrains.kotlin:kotlin-stdlib-common:1.8.21")
                 api("androidx.compose.animation:animation:1.4.3")
                 api("androidx.compose.runtime:runtime:1.4.3")
-                api("androidx.compose.ui:ui:1.4.3")
+                implementation("androidx.compose.ui:ui:1.4.3")
                 implementation("androidx.compose.ui:ui-text:1.4.3")
                 implementation("androidx.compose.ui:ui-util:1.4.3")
+                implementation("androidx.compose.ui:ui-graphics:1.4.3")
                 implementation("androidx.compose.foundation:foundation-layout:1.4.3")
             }
         }
@@ -86,6 +87,14 @@ android {
     defaultConfig {
         minSdk = 21
         targetSdk = 33
+    }
+
+    buildFeatures {
+        compose = true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.4.7"
     }
 
     compileOptions {
