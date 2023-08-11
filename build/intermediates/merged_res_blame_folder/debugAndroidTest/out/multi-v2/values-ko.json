@@ -4,7 +4,7 @@
             "outputFile": "androidx.compose.foundation.test.foundation-mergeDebugAndroidTestResources-31:/values-ko/values-ko.xml",
             "map": [
                 {
-                    "source": "/home/wojtek/.gradle/caches/transforms-3/3be88305ec3f53cea5874afea1aa8f12/transformed/ui-1.4.3/res/values-ko/values-ko.xml",
+                    "source": "/home/wojtek/.gradle/caches/transforms-3/ae6fa3d8bb3b189cfb79f0b97407161b/transformed/ui-1.4.3/res/values-ko/values-ko.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/wojtek/.gradle/caches/transforms-3/6eb640025a493bcf166f70eecde0c5e9/transformed/core-1.11.0-beta02/res/values-ko/values-ko.xml",
+                    "source": "/home/wojtek/.gradle/caches/transforms-3/18c80b92089fe222a1c9e77e69627b05/transformed/core-1.11.0-beta02/res/values-ko/values-ko.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

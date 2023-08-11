@@ -1,1 +1,1 @@
-androidx.compose.foundation.custom
+androidx.compose.foundation

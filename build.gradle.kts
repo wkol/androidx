@@ -15,57 +15,60 @@
  */
 
 plugins {
-    id("org.jetbrains.kotlin.android")
+    kotlin("multiplatform")
     id("com.android.library")
 }
 
-dependencies {
-//    implementation("org.jetbrains.kotlin:kotlin-stdlib-common:1.8.21")
-    api("androidx.compose.animation:animation:1.4.3")
-    api("androidx.compose.runtime:runtime:1.4.3")
-    api("androidx.compose.ui:ui:1.4.3")
-    implementation("androidx.compose.ui:ui-text:1.4.3")
-    implementation("androidx.compose.ui:ui-util:1.4.3")
-    implementation("androidx.compose.ui:ui-graphics:1.4.3")
-    implementation("androidx.compose.foundation:foundation-layout:1.4.3")
-    api("androidx.annotation:annotation:1.1.0")
-    implementation("androidx.emoji2:emoji2:1.3.0")
-    implementation("androidx.core:core:1.11.0-beta02")
-}
+//dependencies {
+////    implementation("org.jetbrains.kotlin:kotlin-stdlib-common:1.8.21")
+//    api("androidx.compose.animation:animation:1.4.3")
+//    api("androidx.compose.runtime:runtime:1.4.3")
+//    api("androidx.compose.ui:ui:1.4.3")
+//    implementation("androidx.compose.ui:ui-text:1.4.3")
+//    implementation("androidx.compose.ui:ui-util:1.4.3")
+//    implementation("androidx.compose.ui:ui-graphics:1.4.3")
+//    implementation("androidx.compose.foundation:foundation-layout:1.4.3")
+//    api("androidx.annotation:annotation:1.1.0")
+//    implementation("androidx.emoji2:emoji2:1.3.0")
+//    implementation("androidx.core:core:1.11.0-beta02")
+//}
 
-//kotlin {
-//    jvm()
-//    android()
-//
-//    sourceSets {
-//        val commonMain by getting {
-//            dependencies {
-//                implementation("org.jetbrains.kotlin:kotlin-stdlib-common:1.8.21")
-//                api("androidx.compose.animation:animation:1.4.3")
-//                api("androidx.compose.runtime:runtime:1.4.3")
-//                api("androidx.compose.ui:ui:1.4.3")
-//                implementation("androidx.compose.ui:ui-text:1.4.3")
-//                implementation("androidx.compose.ui:ui-util:1.4.3")
-//                implementation("androidx.compose.foundation:foundation-layout:1.4.3")
-//            }
-//        }
-//
-//
-//        val jvmMain by getting {
-//            dependsOn(commonMain)
-//            dependencies {
-//
-//            }
-//        }
-//
-//        val androidMain by getting {
-//            dependsOn(jvmMain)
-//            dependencies {
-//                api("androidx.annotation:annotation:1.1.0")
-//                implementation("androidx.emoji2:emoji2:1.3.0")
-//                implementation("androidx.core:core:1.11.0-beta02")
-//            }
-//        }
+kotlin {
+    android()
+    jvm()
+    jvmToolchain {
+        languageVersion.set(JavaLanguageVersion.of(8))
+    }
+
+    sourceSets {
+        val commonMain by getting {
+            dependencies {
+                implementation("org.jetbrains.kotlin:kotlin-stdlib-common:1.8.21")
+                api("androidx.compose.animation:animation:1.4.3")
+                api("androidx.compose.runtime:runtime:1.4.3")
+                api("androidx.compose.ui:ui:1.4.3")
+                implementation("androidx.compose.ui:ui-text:1.4.3")
+                implementation("androidx.compose.ui:ui-util:1.4.3")
+                implementation("androidx.compose.foundation:foundation-layout:1.4.3")
+            }
+        }
+
+
+        val jvmMain by getting {
+            dependsOn(commonMain)
+            dependencies {
+
+            }
+        }
+
+        val androidMain by getting {
+            dependsOn(jvmMain)
+            dependencies {
+                api("androidx.annotation:annotation:1.1.0")
+                implementation("androidx.emoji2:emoji2:1.3.0")
+                implementation("androidx.core:core:1.11.0-beta02")
+            }
+        }
 //
 //        val desktopMain by creating {
 //            dependsOn(jvmMain)
@@ -74,25 +77,20 @@ dependencies {
 //                implementation("androidx.compose.ui:ui-util:1.4.3")
 //            }
 //        }
-//    }
-//}
+    }
+}
 
 android {
-    namespace = "androidx.compose.custom"
+    namespace = "androidx.compose.foundation"
     compileSdk = 33
-    buildFeatures {
-        compose = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.7"
-    }
     defaultConfig {
         minSdk = 21
         targetSdk = 33
     }
+
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 }
 

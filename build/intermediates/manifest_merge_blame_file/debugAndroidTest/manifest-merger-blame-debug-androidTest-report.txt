@@ -3,108 +3,108 @@
 3    package="androidx.compose.foundation.test" >
 4
 5    <uses-sdk
-5-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16471471709859840414.xml:5:5-74
+5-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5152147281252947652.xml:5:5-74
 6        android:minSdkVersion="21"
-6-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16471471709859840414.xml:5:15-41
+6-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5152147281252947652.xml:5:15-41
 7        android:targetSdkVersion="33" />
-7-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16471471709859840414.xml:5:42-71
+7-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5152147281252947652.xml:5:42-71
 8
 9    <instrumentation
-9-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16471471709859840414.xml:11:5-15:82
+9-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5152147281252947652.xml:11:5-15:82
 10        android:name="android.test.InstrumentationTestRunner"
-10-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16471471709859840414.xml:11:22-75
+10-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5152147281252947652.xml:11:22-75
 11        android:functionalTest="false"
-11-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16471471709859840414.xml:14:22-52
+11-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5152147281252947652.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16471471709859840414.xml:13:22-53
+12-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5152147281252947652.xml:13:22-53
 13        android:label="Tests for androidx.compose.foundation.test"
-13-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16471471709859840414.xml:15:22-80
+13-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5152147281252947652.xml:15:22-80
 14        android:targetPackage="androidx.compose.foundation.test" />
-14-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16471471709859840414.xml:12:22-78
+14-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5152147281252947652.xml:12:22-78
 15
 16    <permission
-16-->[androidx.core:core:1.11.0-beta02] /home/wojtek/.gradle/caches/transforms-3/6eb640025a493bcf166f70eecde0c5e9/transformed/core-1.11.0-beta02/AndroidManifest.xml:22:5-24:47
+16-->[androidx.core:core:1.11.0-beta02] /home/wojtek/.gradle/caches/transforms-3/18c80b92089fe222a1c9e77e69627b05/transformed/core-1.11.0-beta02/AndroidManifest.xml:22:5-24:47
 17        android:name="androidx.compose.foundation.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-17-->[androidx.core:core:1.11.0-beta02] /home/wojtek/.gradle/caches/transforms-3/6eb640025a493bcf166f70eecde0c5e9/transformed/core-1.11.0-beta02/AndroidManifest.xml:23:9-81
+17-->[androidx.core:core:1.11.0-beta02] /home/wojtek/.gradle/caches/transforms-3/18c80b92089fe222a1c9e77e69627b05/transformed/core-1.11.0-beta02/AndroidManifest.xml:23:9-81
 18        android:protectionLevel="signature" />
-18-->[androidx.core:core:1.11.0-beta02] /home/wojtek/.gradle/caches/transforms-3/6eb640025a493bcf166f70eecde0c5e9/transformed/core-1.11.0-beta02/AndroidManifest.xml:24:9-44
+18-->[androidx.core:core:1.11.0-beta02] /home/wojtek/.gradle/caches/transforms-3/18c80b92089fe222a1c9e77e69627b05/transformed/core-1.11.0-beta02/AndroidManifest.xml:24:9-44
 19
 20    <uses-permission android:name="androidx.compose.foundation.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-20-->[androidx.core:core:1.11.0-beta02] /home/wojtek/.gradle/caches/transforms-3/6eb640025a493bcf166f70eecde0c5e9/transformed/core-1.11.0-beta02/AndroidManifest.xml:26:5-97
-20-->[androidx.core:core:1.11.0-beta02] /home/wojtek/.gradle/caches/transforms-3/6eb640025a493bcf166f70eecde0c5e9/transformed/core-1.11.0-beta02/AndroidManifest.xml:26:22-94
+20-->[androidx.core:core:1.11.0-beta02] /home/wojtek/.gradle/caches/transforms-3/18c80b92089fe222a1c9e77e69627b05/transformed/core-1.11.0-beta02/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.11.0-beta02] /home/wojtek/.gradle/caches/transforms-3/18c80b92089fe222a1c9e77e69627b05/transformed/core-1.11.0-beta02/AndroidManifest.xml:26:22-94
 21
 22    <application
-22-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16471471709859840414.xml:7:5-9:19
+22-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5152147281252947652.xml:7:5-9:19
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-23-->[androidx.core:core:1.11.0-beta02] /home/wojtek/.gradle/caches/transforms-3/6eb640025a493bcf166f70eecde0c5e9/transformed/core-1.11.0-beta02/AndroidManifest.xml:28:18-86
+23-->[androidx.core:core:1.11.0-beta02] /home/wojtek/.gradle/caches/transforms-3/18c80b92089fe222a1c9e77e69627b05/transformed/core-1.11.0-beta02/AndroidManifest.xml:28:18-86
 24        android:debuggable="true" >
 25        <uses-library android:name="android.test.runner" />
-25-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16471471709859840414.xml:8:9-60
-25-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16471471709859840414.xml:8:23-57
+25-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5152147281252947652.xml:8:9-60
+25-->/home/wojtek/Documents/MyApplication5/foundation/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5152147281252947652.xml:8:23-57
 26
 27        <provider
-27-->[androidx.emoji2:emoji2:1.3.0] /home/wojtek/.gradle/caches/transforms-3/00e086d581500661bf66f63c0ec9ec2d/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+27-->[androidx.emoji2:emoji2:1.3.0] /home/wojtek/.gradle/caches/transforms-3/f71305be3fa8eef8e12098afc3b317a0/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
 28            android:name="androidx.startup.InitializationProvider"
-28-->[androidx.emoji2:emoji2:1.3.0] /home/wojtek/.gradle/caches/transforms-3/00e086d581500661bf66f63c0ec9ec2d/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+28-->[androidx.emoji2:emoji2:1.3.0] /home/wojtek/.gradle/caches/transforms-3/f71305be3fa8eef8e12098afc3b317a0/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
 29            android:authorities="androidx.compose.foundation.test.androidx-startup"
-29-->[androidx.emoji2:emoji2:1.3.0] /home/wojtek/.gradle/caches/transforms-3/00e086d581500661bf66f63c0ec9ec2d/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+29-->[androidx.emoji2:emoji2:1.3.0] /home/wojtek/.gradle/caches/transforms-3/f71305be3fa8eef8e12098afc3b317a0/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
 30            android:exported="false" >
-30-->[androidx.emoji2:emoji2:1.3.0] /home/wojtek/.gradle/caches/transforms-3/00e086d581500661bf66f63c0ec9ec2d/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+30-->[androidx.emoji2:emoji2:1.3.0] /home/wojtek/.gradle/caches/transforms-3/f71305be3fa8eef8e12098afc3b317a0/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
 31            <meta-data
-31-->[androidx.emoji2:emoji2:1.3.0] /home/wojtek/.gradle/caches/transforms-3/00e086d581500661bf66f63c0ec9ec2d/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+31-->[androidx.emoji2:emoji2:1.3.0] /home/wojtek/.gradle/caches/transforms-3/f71305be3fa8eef8e12098afc3b317a0/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
 32                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-32-->[androidx.emoji2:emoji2:1.3.0] /home/wojtek/.gradle/caches/transforms-3/00e086d581500661bf66f63c0ec9ec2d/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+32-->[androidx.emoji2:emoji2:1.3.0] /home/wojtek/.gradle/caches/transforms-3/f71305be3fa8eef8e12098afc3b317a0/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
 33                android:value="androidx.startup" />
-33-->[androidx.emoji2:emoji2:1.3.0] /home/wojtek/.gradle/caches/transforms-3/00e086d581500661bf66f63c0ec9ec2d/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+33-->[androidx.emoji2:emoji2:1.3.0] /home/wojtek/.gradle/caches/transforms-3/f71305be3fa8eef8e12098afc3b317a0/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
 34            <meta-data
-34-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/wojtek/.gradle/caches/transforms-3/cb30ab362b1fd7f0a30d0d274c4fc9f3/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+34-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/wojtek/.gradle/caches/transforms-3/9d54f30c0e2710d5a5026770ba8afda8/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
 35                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-35-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/wojtek/.gradle/caches/transforms-3/cb30ab362b1fd7f0a30d0d274c4fc9f3/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+35-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/wojtek/.gradle/caches/transforms-3/9d54f30c0e2710d5a5026770ba8afda8/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
 36                android:value="androidx.startup" />
-36-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/wojtek/.gradle/caches/transforms-3/cb30ab362b1fd7f0a30d0d274c4fc9f3/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+36-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/wojtek/.gradle/caches/transforms-3/9d54f30c0e2710d5a5026770ba8afda8/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
 37            <meta-data
-37-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+37-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
 38                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-38-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+38-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
 39                android:value="androidx.startup" />
-39-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+39-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
 40        </provider>
 41
 42        <receiver
-42-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+42-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
 43            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-43-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+43-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
 44            android:directBootAware="false"
-44-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+44-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
 45            android:enabled="true"
-45-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+45-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
 46            android:exported="true"
-46-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+46-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
 47            android:permission="android.permission.DUMP" >
-47-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+47-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
 48            <intent-filter>
-48-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+48-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
 49                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-49-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-49-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+49-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+49-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
 50            </intent-filter>
 51            <intent-filter>
-51-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+51-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
 52                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-52-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-52-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+52-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+52-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
 53            </intent-filter>
 54            <intent-filter>
-54-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+54-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
 55                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-55-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-55-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+55-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+55-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
 56            </intent-filter>
 57            <intent-filter>
-57-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+57-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
 58                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-58-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-58-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/ba44e155cd6c4b17a8ef6304e912903e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+58-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+58-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wojtek/.gradle/caches/transforms-3/e16bb337aca994d34ba490a0c2ab940d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
 59            </intent-filter>
 60        </receiver>
 61    </application>
